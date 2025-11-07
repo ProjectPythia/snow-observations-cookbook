@@ -20,7 +20,7 @@ project:
     - title: Observations
       children:
           - file: notebooks/GPR_Lidar_HackweekTutorial.ipynb
-          - file: notebooks/thermal-ir-tutorial-pt1.ipynb
+          - file: notebooks/thermal-ir-tutorial.ipynb
           - file: notebooks/timelapse-camera-tutorial.ipynb
           - file: notebooks/uavsar_accessing_imagery_pt1.ipynb
           - file: notebooks/microstructure-tutorial.ipynb
