@@ -16,8 +16,7 @@ project:
     - title: Data Access
       children:
         - file: notebooks/snowex_data_overview.ipynb
-        - file: notebooks/earthaccess_snowex.ipynb
-        - file: notebooks/snowex_database.ipynb
+        - file: notebooks/snowexsql_database.ipynb
     - title: Observations
       children:
           - file: notebooks/GPR_Lidar_HackweekTutorial.ipynb
