@@ -1,1 +1,1 @@
-import{a}from"/cookbook-template/build/_shared/chunk-2YEAM2KW.js";import"/cookbook-template/build/_shared/chunk-7H4MNJGC.js";import"/cookbook-template/build/_shared/chunk-ZOXRFJWB.js";import"/cookbook-template/build/_shared/chunk-2NH4LW52.js";export default a();
+import{a}from"/snow-observations-cookbook/build/_shared/chunk-2YEAM2KW.js";import"/snow-observations-cookbook/build/_shared/chunk-7H4MNJGC.js";import"/snow-observations-cookbook/build/_shared/chunk-ZOXRFJWB.js";import"/snow-observations-cookbook/build/_shared/chunk-2NH4LW52.js";export default a();
