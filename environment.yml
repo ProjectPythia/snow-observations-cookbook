@@ -23,5 +23,6 @@ dependencies:
   - earthpy
   - pip 
   - contextily
+  - h5netcdf
   - pip:
     - uavsar_pytools>=0.7.1, <0.8
