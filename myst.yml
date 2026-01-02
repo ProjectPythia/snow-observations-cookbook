@@ -5,6 +5,7 @@ extends:
 project:
   title: Snow Observations Cookbook
   github: https://github.com/SnowEx/snow-observations-cookbook
+  bibliography: references.bib
   authors:
     - name: The NASA Snow Observations Community
   copyright: '2025'
