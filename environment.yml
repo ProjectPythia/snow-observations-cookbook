@@ -5,7 +5,6 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
-  - snowexsql >=1.1.0rc1, <2
   - numpy
   - scipy
   - matplotlib
@@ -26,6 +25,7 @@ dependencies:
   - h5netcdf
   - spectral
   - pip:
+    - snowexsql>=1.1.0rc1,<2
     - uavsar_pytools>=0.7.1, <0.8
     - snowmicropyn
     - metloom
