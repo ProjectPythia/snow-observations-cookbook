@@ -5,7 +5,7 @@ dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
-  - snowexsql >=0.5.0,<0.6
+  - snowexsql >=1.1.0rc1, <2
   - numpy
   - scipy
   - matplotlib
