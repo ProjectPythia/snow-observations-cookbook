@@ -1,4 +1,4 @@
-name: snow-observations-cookbook-test
+name: snow-observations-cookbook
 channels:
   - conda-forge
 dependencies:
