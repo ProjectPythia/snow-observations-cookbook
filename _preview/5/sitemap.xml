@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://localhost:3000/sitemap_style.xsl" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://localhost:3000</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/how-to-cite</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/snowex-data-overview</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/snowexsql-database</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/gpr-lidar-hackweektutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/thermal-ir-tutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/timelapse-camera-tutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/uavsar-tutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/microstructure-tutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/aviris-ng-tutorial</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/tls-data-access</loc>
+  </url>
+  <url>
+    <loc>http://localhost:3000/notebooks/snotel-data-access</loc>
+  </url>
+</urlset>
