@@ -25,7 +25,7 @@ dependencies:
   - h5netcdf
   - spectral
   - pip:
-    - git+https://github.com/SnowEx/snowexsql.git@v1.1.0rc1
+    - git+https://github.com/SnowEx/snowexsql.git@master
     - uavsar_pytools>=0.7.1, <0.8
     - snowmicropyn
     - metloom
