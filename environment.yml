@@ -1,11 +1,10 @@
-name: snow-observations-cookbook-test
+name: snow-observations-cookbook
 channels:
   - conda-forge
 dependencies:
   - jupyterlab
   - mystmd
   - jupyterlab-myst
-  - snowexsql >=0.5.0,<0.6
   - numpy
   - scipy
   - matplotlib
@@ -26,6 +25,7 @@ dependencies:
   - h5netcdf
   - spectral
   - pip:
+    - git+https://github.com/SnowEx/snowexsql.git@master
     - uavsar_pytools>=0.7.1, <0.8
     - snowmicropyn
     - metloom
