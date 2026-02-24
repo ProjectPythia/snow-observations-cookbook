@@ -19,7 +19,6 @@ dependencies:
   - holoviews
   - bokeh
   - datashader
-  - earthpy
   - pip 
   - contextily
   - h5netcdf
