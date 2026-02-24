@@ -20,8 +20,6 @@ dependencies:
   - bokeh
   - datashader
   - pip 
-  - earthpy
-  - setuptools
   - contextily
   - h5netcdf
   - spectral
