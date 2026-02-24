@@ -21,6 +21,7 @@ dependencies:
   - datashader
   - pip 
   - earthpy
+  - setuptools
   - contextily
   - h5netcdf
   - spectral
