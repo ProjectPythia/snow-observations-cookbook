@@ -23,10 +23,10 @@ datasets, algorithms and software.
 
 ## Authors
 
-[Zach Fair](@zachghiaccio)
-[Anthony Arendt](@aaarendt),
-[Alex Lewandowski](@Alex-Lewandowski),
-[Joachim Meyer](@jomey)
+[Zach Fair](https://github.com/zachghiaccio),
+[Anthony Arendt](https://github.com/aaarendt),
+[Alex Lewandowski](https://github.com/Alex-Lewandowski),
+[Joachim Meyer](https://github.com/jomey)
 
 ### Contributors
 
