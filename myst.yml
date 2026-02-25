@@ -33,4 +33,6 @@ project:
       - "https://lpdaac.usgs.gov/*"
       - "https://journals.ametsoc.org/*"
       - "https://www.earthdatascience.org/*"
+      - "https://ieeexplore.ieee.org/*"
+      - "https://hls.gsfc.nasa.gov/*"
 
