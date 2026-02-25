@@ -37,4 +37,5 @@ project:
         - 'https://www.earthdatascience.org/**'
         - 'https://ieeexplore.ieee.org/**'
         - 'https://hls.gsfc.nasa.gov/**'
+        - 'https://www.gnu.org/**'
 
