@@ -28,11 +28,13 @@ project:
           - file: notebooks/aviris-ng-tutorial.ipynb     
           - file: notebooks/tls_data_access.ipynb
           - file: notebooks/snotel_data_access.ipynb
-  links:
-    ignorePatterns:
-      - "https://lpdaac.usgs.gov/*"
-      - "https://journals.ametsoc.org/*"
-      - "https://www.earthdatascience.org/*"
-      - "https://ieeexplore.ieee.org/*"
-      - "https://hls.gsfc.nasa.gov/*"
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://lpdaac.usgs.gov/**'
+        - 'https://journals.ametsoc.org/**'
+        - 'https://www.earthdatascience.org/**'
+        - 'https://ieeexplore.ieee.org/**'
+        - 'https://hls.gsfc.nasa.gov/**'
 
