@@ -28,4 +28,9 @@ project:
           - file: notebooks/aviris-ng-tutorial.ipynb     
           - file: notebooks/tls_data_access.ipynb
           - file: notebooks/snotel_data_access.ipynb
+  links:
+    ignorePatterns:
+      - "https://lpdaac.usgs.gov/*"
+      - "https://journals.ametsoc.org/*"
+      - "https://www.earthdatascience.org/*"
 
