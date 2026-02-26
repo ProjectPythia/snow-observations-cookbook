@@ -23,7 +23,7 @@ project:
           - file: notebooks/GPR-lidar-tutorial.ipynb
           - file: notebooks/thermal-ir-tutorial.ipynb
           - file: notebooks/timelapse-camera-tutorial.ipynb
-          - file: notebooks/uavsar-tutorial.ipynb
+#          - file: notebooks/uavsar-tutorial.ipynb
           - file: notebooks/microstructure-tutorial.ipynb
           - file: notebooks/aviris-ng-tutorial.ipynb     
           - file: notebooks/tls_data_access.ipynb
