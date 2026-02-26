@@ -39,4 +39,5 @@ project:
         - 'https://hls.gsfc.nasa.gov/**'
         - 'https://www.gnu.org/**'
         - 'https://snowex-tutorials.s3.us-west-2.amazonaws.com/**'
+        - 'https://github.com/**'
 
