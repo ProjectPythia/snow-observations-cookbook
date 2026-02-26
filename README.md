@@ -4,7 +4,6 @@
 
 [![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
 
 This Project Pythia Cookbook is a compilation of tutorials and training 
@@ -24,10 +23,10 @@ datasets, algorithms and software.
 
 ## Authors
 
-[Zach Fair](@zachghiaccio)
-[Anthony Arendt](@aaarendt),
-[Alex Lewandowski](@Alex-Lewandowski),
-[Joachim Meyer](@jomey)
+[Zach Fair](https://github.com/zachghiaccio),
+[Anthony Arendt](https://github.com/aaarendt),
+[Alex Lewandowski](https://github.com/Alex-Lewandowski),
+[Joachim Meyer](https://github.com/jomey)
 
 ### Contributors
 
@@ -72,9 +71,7 @@ on the rocket ship icon, (see figure below), and be sure to select
 notebook that you can interact with. I.e. you’ll be able to execute
 and even change the example programs. You’ll see that the code cells
 have no output at first, until you execute them by pressing
-{kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with
-a live Jupyter notebook are described in [Getting Started with
-Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
+{kbd}`Shift`\+{kbd}`Enter`. 
 
 Note, not all Cookbook chapters are executable. If you do not see
 the rocket ship icon, such as on this page, you are not viewing an

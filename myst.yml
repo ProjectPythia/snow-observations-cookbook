@@ -20,7 +20,7 @@ project:
         - file: notebooks/snowexsql_database.ipynb
     - title: Observations
       children:
-          - file: notebooks/GPR_Lidar_HackweekTutorial.ipynb
+          - file: notebooks/GPR-lidar-tutorial.ipynb
           - file: notebooks/thermal-ir-tutorial.ipynb
           - file: notebooks/timelapse-camera-tutorial.ipynb
           - file: notebooks/uavsar-tutorial.ipynb
@@ -28,4 +28,16 @@ project:
           - file: notebooks/aviris-ng-tutorial.ipynb     
           - file: notebooks/tls_data_access.ipynb
           - file: notebooks/snotel_data_access.ipynb
+  error_rules:
+    - rule: link-resolves
+      severity: ignore
+      keys:
+        - 'https://lpdaac.usgs.gov/**'
+        - 'https://journals.ametsoc.org/**'
+        - 'https://www.earthdatascience.org/**'
+        - 'https://ieeexplore.ieee.org/**'
+        - 'https://hls.gsfc.nasa.gov/**'
+        - 'https://www.gnu.org/**'
+        - 'https://snowex-tutorials.s3.us-west-2.amazonaws.com/**'
+        - 'https://github.com/**'
 

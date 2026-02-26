@@ -9,6 +9,9 @@ jobs:
   build:
     if: ${{ github.repository_owner == 'ProjectPythia' }}
     uses: ProjectPythia/cookbook-actions/.github/workflows/build-book.yaml@main
+    with:
+      # Per-cell kernel execution timeout in seconds (-1 = unlimited, adjust as needed)
+      build_command: 'NBCLIENT_EXECUTION_TIMEOUT=600 myst build --execute --html --strict'
 
   deploy:
     needs: build
