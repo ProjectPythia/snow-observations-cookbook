@@ -30,7 +30,7 @@ datasets, algorithms and software.
 
 ### Contributors
 
-<a href="https://github.com/SnowEx/snow-cookbook/graphs/contributors">
+<a href="https://github.com/SnowEx/snow-observations-cookbook/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=SnowEx/snow-observations-cookbook" />
 </a>
 
@@ -84,7 +84,7 @@ If you are interested in running this material locally on your computer,
 you will need to follow this workflow:
 
 
-1. Clone the `https://github.com/ProjectPythia/snow-cookbook` repository:
+1. Clone the `https://github.com/ProjectPythia/snow-observations-cookbook` repository:
 
    ```bash
     git clone https://github.com/ProjectPythia/snow-observations-cookbook.git
