@@ -16,7 +16,7 @@ dependencies:
   - rioxarray
   - earthaccess
   - seaborn
-  - holoviews
+  - holoviews>=1.15
   - bokeh
   - datashader
   - pip 
