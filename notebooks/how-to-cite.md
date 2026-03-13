@@ -4,3 +4,4 @@ The material in this Project Pythia Cookbook is licensed for free and open consu
 
 The source code for the book is [released on GitHub](https://github.com/ProjectPythia/cookbook-template) and archived on Zenodo. This DOI will always resolve to the latest release of the book source:
 
+[![DOI](https://zenodo.org/badge/1091869665.svg)](https://zenodo.org/badge/latestdoi/1091869665)
