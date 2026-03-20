@@ -2,8 +2,8 @@
 
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
-[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
+[![nightly-build](https://github.com/ProjectPythia/snow-observations-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/snow-observations-cookbook/actions/workflows/nightly-build.yaml)
+[![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/snow-observations-cookbook/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.19006079.svg)](https://doi.org/10.5281/zenodo.19006079)
 
 This Project Pythia Cookbook is a compilation of tutorials and training 
