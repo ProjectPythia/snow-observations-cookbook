@@ -45,6 +45,7 @@ project:
         - 'https://doi.org/**'
         - 'https://zenodo.org/**'
         - 'https://www.neonscience.org/**'
+        - 'https://onlinelibrary.wiley.com/**'
     - rule: doi-link-valid
       severity: ignore
       keys:
