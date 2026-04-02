@@ -1,0 +1,6 @@
+import {
+  require_autoit
+} from "/snow-observations-cookbook/build/_shared/chunk-OREMNPUI.js";
+import "/snow-observations-cookbook/build/_shared/chunk-CGOEG7L2.js";
+export default require_autoit();
+//# sourceMappingURL=/snow-observations-cookbook/build/_shared/autoit-7GGXASKC.js.map
