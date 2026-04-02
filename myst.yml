@@ -44,6 +44,7 @@ project:
         - 'https://snow.nasa.gov/**'
         - 'https://doi.org/**'
         - 'https://zenodo.org/**'
+        - 'https://www.neonscience.org/**'
     - rule: doi-link-valid
       severity: ignore
       keys:
