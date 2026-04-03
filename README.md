@@ -47,11 +47,13 @@ This cookbook is broken up into two main sections: "Data Access" and
 ### Section 2: Observations
 
 * GPR and Lidar
+* Thermal Infrared
 * Time-lapse Cameras
 * UAVSAR
 * Microstructure
 * AVIRIS-NG
 * Terrestrial Laser Scanning
+* SNOTEL Data Access
 
 ## Running the Notebooks
 

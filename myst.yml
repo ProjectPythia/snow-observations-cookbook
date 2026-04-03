@@ -42,4 +42,12 @@ project:
         - 'https://github.com/**'
         - 'https://pandas.pydata.org/**'
         - 'https://snow.nasa.gov/**'
-
+        - 'https://doi.org/**'
+        - 'https://zenodo.org/**'
+        - 'https://www.neonscience.org/**'
+        - 'https://onlinelibrary.wiley.com/**'
+        - 'https://agupubs.onlinelibrary.wiley.com/**'
+    - rule: doi-link-valid
+      severity: ignore
+      keys:
+        - 'https://zenodo.org/**'   # also suppress the DOI validation error
