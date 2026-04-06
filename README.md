@@ -1,5 +1,7 @@
 # Snow Observations Cookbook
 
+April 2026: this repo is archived. It was the original basis for what is now published at [Project Pythia](https://projectpythia.org/snow-observations-cookbook/).
+
 <img src="thumbnail.png" alt="thumbnail" width="300"/>
 
 [![nightly-build](https://github.com/ProjectPythia/snow-observations-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/snow-observations-cookbook/actions/workflows/nightly-build.yaml)
