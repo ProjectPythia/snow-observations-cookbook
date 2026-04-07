@@ -9,6 +9,9 @@ project:
   authors:
     - name: The NASA Snow Observations Community
   copyright: '2025'
+  jupyter:
+      binder:
+        repo: projectpythia/snow-observations-cookbook
   toc:
     - file: README.md
     - title: Preamble
