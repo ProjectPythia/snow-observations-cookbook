@@ -1,6 +1,0 @@
-import {
-  require_pug
-} from "/snow-observations-cookbook/_preview/16/build/_shared/chunk-6KHDIJDA.js";
-import "/snow-observations-cookbook/_preview/16/build/_shared/chunk-CGOEG7L2.js";
-export default require_pug();
-//# sourceMappingURL=/snow-observations-cookbook/_preview/16/build/_shared/pug-DOFFXYGE.js.map
