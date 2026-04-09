@@ -8,8 +8,9 @@
 
 This Project Pythia Cookbook is a compilation of tutorials and training 
 materials in support of the NASA snow reserach community. Some tutorials
-come from the 2020 to 2024 SnowEx Hackweek program hosted at the UW eScience 
-Institute. Other materials are drawn from the NASA Goddard "SnowPit" Science
+come from the [2020 to 2024 SnowEx Hackweek](https://snowex.hackweek.io) program hosted 
+at the [UW eScience Institute](https://github.com/uwhackweek/). 
+Other materials are drawn from the NASA Goddard "SnowPit" Science
 Task Group or STG. The purpose of the tutorials is to help people with data 
 access and to demonstrate a variety of disciplinary use cases.
 
