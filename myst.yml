@@ -54,3 +54,4 @@ project:
       severity: ignore
       keys:
         - 'https://zenodo.org/**'   # also suppress the DOI validation error
+        - 'https://doi.org/**'   # suppress bot-blocked DOI validation
