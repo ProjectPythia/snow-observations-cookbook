@@ -107,4 +107,3 @@ you will need to follow this workflow:
    cd notebooks/
    jupyter lab
    ```
-
