@@ -16,7 +16,7 @@
             &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no&quot; /&gt;
             &lt;style&gt;
-                #map_c3fbc9ada43bf763aa3c387b30f488dc {
+                #map_eac27efbbd6de7081072319a621d7770 {
                     position: relative;
                     width: 100.0vw;
                     height: 100.0vh;
@@ -290,14 +290,14 @@
 &lt;body&gt;
     
     
-            &lt;div class=&quot;folium-map&quot; id=&quot;map_c3fbc9ada43bf763aa3c387b30f488dc&quot; &gt;&lt;/div&gt;
+            &lt;div class=&quot;folium-map&quot; id=&quot;map_eac27efbbd6de7081072319a621d7770&quot; &gt;&lt;/div&gt;
         
 &lt;/body&gt;
 &lt;script&gt;
     
     
-            var map_c3fbc9ada43bf763aa3c387b30f488dc = L.map(
-                &quot;map_c3fbc9ada43bf763aa3c387b30f488dc&quot;,
+            var map_eac27efbbd6de7081072319a621d7770 = L.map(
+                &quot;map_eac27efbbd6de7081072319a621d7770&quot;,
                 {
                     center: [64.87346723629585, -147.70673132863286],
                     crs: L.CRS.EPSG3857,
@@ -309,13 +309,13 @@
 
                 }
             );
-            L.control.scale().addTo(map_c3fbc9ada43bf763aa3c387b30f488dc);
+            L.control.scale().addTo(map_eac27efbbd6de7081072319a621d7770);
 
             
 
         
     
-            var tile_layer_5ca4a1f1f13d1a75d5bcbcd54c08204e = L.tileLayer(
+            var tile_layer_2d0367998285ce9df10f779d3ee673eb = L.tileLayer(
                 &quot;https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}&quot;,
                 {
   &quot;minZoom&quot;: 0,
@@ -332,22 +332,22 @@
             );
         
     
-            tile_layer_5ca4a1f1f13d1a75d5bcbcd54c08204e.addTo(map_c3fbc9ada43bf763aa3c387b30f488dc);
+            tile_layer_2d0367998285ce9df10f779d3ee673eb.addTo(map_eac27efbbd6de7081072319a621d7770);
         
     
-            map_c3fbc9ada43bf763aa3c387b30f488dc.fitBounds(
+            map_eac27efbbd6de7081072319a621d7770.fitBounds(
                 [[64.85824559308716, -147.7518789161763], [64.88868887950454, -147.6615837410894]],
                 {}
             );
         
     
-        function geo_json_c159e1f798123350fad6db57e154375b_styler(feature) {
+        function geo_json_16b72761feff1a87b4fc26e69abe401b_styler(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;color&quot;: &quot;grey&quot;, &quot;fillColor&quot;: &quot;grey&quot;, &quot;fillOpacity&quot;: 0.5, &quot;opacity&quot;: 0.2, &quot;weight&quot;: 2};
             }
         }
-        function geo_json_c159e1f798123350fad6db57e154375b_pointToLayer(feature, latlng) {
+        function geo_json_16b72761feff1a87b4fc26e69abe401b_pointToLayer(feature, latlng) {
             var opts = {
   &quot;stroke&quot;: true,
   &quot;color&quot;: &quot;#3388ff&quot;,
@@ -365,13 +365,13 @@
   &quot;radius&quot;: 2,
 };
             
-            let style = geo_json_c159e1f798123350fad6db57e154375b_styler(feature)
+            let style = geo_json_16b72761feff1a87b4fc26e69abe401b_styler(feature)
             Object.assign(opts, style)
             
             return new L.CircleMarker(latlng, opts)
         }
 
-        function geo_json_c159e1f798123350fad6db57e154375b_onEachFeature(feature, layer) {
+        function geo_json_16b72761feff1a87b4fc26e69abe401b_onEachFeature(feature, layer) {
             (function propagate(parent){
                 if (typeof parent.eachLayer !== &quot;function&quot;) {return;}
                 parent.eachLayer(function (child) {
@@ -383,24 +383,24 @@
             layer.on({
             });
         };
-        var geo_json_c159e1f798123350fad6db57e154375b = L.geoJson(null, {
-                onEachFeature: geo_json_c159e1f798123350fad6db57e154375b_onEachFeature,
+        var geo_json_16b72761feff1a87b4fc26e69abe401b = L.geoJson(null, {
+                onEachFeature: geo_json_16b72761feff1a87b4fc26e69abe401b_onEachFeature,
             
-                style: geo_json_c159e1f798123350fad6db57e154375b_styler,
-                pointToLayer: geo_json_c159e1f798123350fad6db57e154375b_pointToLayer,
+                style: geo_json_16b72761feff1a87b4fc26e69abe401b_styler,
+                pointToLayer: geo_json_16b72761feff1a87b4fc26e69abe401b_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_c159e1f798123350fad6db57e154375b_add (data) {
-            geo_json_c159e1f798123350fad6db57e154375b
+        function geo_json_16b72761feff1a87b4fc26e69abe401b_add (data) {
+            geo_json_16b72761feff1a87b4fc26e69abe401b
                 .addData(data);
         }
-            geo_json_c159e1f798123350fad6db57e154375b_add({&quot;bbox&quot;: [-147.7518789161763, 64.85824559308716, -147.6615837410894, 64.88868887950454], &quot;features&quot;: [{&quot;bbox&quot;: [-147.7518789161763, 64.85824559308716, -147.6615837410894, 64.88868887950454], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[[-147.7518789161763, 64.88830524865706, 0.0], [-147.7510392851389, 64.85824559308716, 0.0], [-147.6615837410894, 64.85875714704834, 0.0], [-147.6619112303887, 64.88868887950454, 0.0], [-147.7518789161763, 64.88830524865706, 0.0]]]], &quot;type&quot;: &quot;MultiPolygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {&quot;Name&quot;: &quot;Creamer/Farmers&quot;, &quot;__folium_color&quot;: &quot;grey&quot;, &quot;altitudeMode&quot;: null, &quot;begin&quot;: null, &quot;description&quot;: &quot;\u003chtml xmlns:fo=\&quot;http://www.w3.org/1999/XSL/Format\&quot; xmlns:msxsl=\&quot;urn:schemas-microsoft-com:xslt\&quot;\u003e\n\n\u003chead\u003e\n\n\u003cMETA http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html\&quot;\u003e\n\n\u003cmeta http-equiv=\&quot;content-type\&quot; content=\&quot;text/html; charset=UTF-8\&quot;\u003e\n\n\u003c/head\u003e\n\n\u003cbody style=\&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\&quot;\u003e\n\n\u003ctable style=\&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\&quot;\u003e\n\n\u003ctr style=\&quot;text-align:center;font-weight:bold;background:#9CBCE2\&quot;\u003e\n\n\u003ctd\u003eCreamer/Farmers\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003e\n\n\u003ctable style=\&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\&quot;\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003eFID\u003c/td\u003e\n\n\u003ctd\u003e3\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr bgcolor=\&quot;#D4E4F3\&quot;\u003e\n\n\u003ctd\u003eId\u003c/td\u003e\n\n\u003ctd\u003e0\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003eSite_ID\u003c/td\u003e\n\n\u003ctd\u003eCreamer/Farmers\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003c/table\u003e\n\n\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003c/table\u003e\n\n\u003c/body\u003e\n\n\u003c/html\u003e&quot;, &quot;drawOrder&quot;: null, &quot;end&quot;: null, &quot;extrude&quot;: 0, &quot;icon&quot;: null, &quot;name&quot;: &quot;FLCF&quot;, &quot;snippet&quot;: &quot;&quot;, &quot;tessellate&quot;: -1, &quot;timestamp&quot;: null, &quot;visibility&quot;: -1}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+            geo_json_16b72761feff1a87b4fc26e69abe401b_add({&quot;bbox&quot;: [-147.7518789161763, 64.85824559308716, -147.6615837410894, 64.88868887950454], &quot;features&quot;: [{&quot;bbox&quot;: [-147.7518789161763, 64.85824559308716, -147.6615837410894, 64.88868887950454], &quot;geometry&quot;: {&quot;coordinates&quot;: [[[[-147.7518789161763, 64.88830524865706, 0.0], [-147.7510392851389, 64.85824559308716, 0.0], [-147.6615837410894, 64.85875714704834, 0.0], [-147.6619112303887, 64.88868887950454, 0.0], [-147.7518789161763, 64.88830524865706, 0.0]]]], &quot;type&quot;: &quot;MultiPolygon&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {&quot;Name&quot;: &quot;Creamer/Farmers&quot;, &quot;__folium_color&quot;: &quot;grey&quot;, &quot;altitudeMode&quot;: null, &quot;begin&quot;: null, &quot;description&quot;: &quot;\u003chtml xmlns:fo=\&quot;http://www.w3.org/1999/XSL/Format\&quot; xmlns:msxsl=\&quot;urn:schemas-microsoft-com:xslt\&quot;\u003e\n\n\u003chead\u003e\n\n\u003cMETA http-equiv=\&quot;Content-Type\&quot; content=\&quot;text/html\&quot;\u003e\n\n\u003cmeta http-equiv=\&quot;content-type\&quot; content=\&quot;text/html; charset=UTF-8\&quot;\u003e\n\n\u003c/head\u003e\n\n\u003cbody style=\&quot;margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\&quot;\u003e\n\n\u003ctable style=\&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\&quot;\u003e\n\n\u003ctr style=\&quot;text-align:center;font-weight:bold;background:#9CBCE2\&quot;\u003e\n\n\u003ctd\u003eCreamer/Farmers\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003e\n\n\u003ctable style=\&quot;font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\&quot;\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003eFID\u003c/td\u003e\n\n\u003ctd\u003e3\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr bgcolor=\&quot;#D4E4F3\&quot;\u003e\n\n\u003ctd\u003eId\u003c/td\u003e\n\n\u003ctd\u003e0\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003ctr\u003e\n\n\u003ctd\u003eSite_ID\u003c/td\u003e\n\n\u003ctd\u003eCreamer/Farmers\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003c/table\u003e\n\n\u003c/td\u003e\n\n\u003c/tr\u003e\n\n\u003c/table\u003e\n\n\u003c/body\u003e\n\n\u003c/html\u003e&quot;, &quot;drawOrder&quot;: null, &quot;end&quot;: null, &quot;extrude&quot;: 0, &quot;icon&quot;: null, &quot;name&quot;: &quot;FLCF&quot;, &quot;snippet&quot;: &quot;&quot;, &quot;tessellate&quot;: -1, &quot;timestamp&quot;: null, &quot;visibility&quot;: -1}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
 
         
     
-    geo_json_c159e1f798123350fad6db57e154375b.bindPopup(
+    geo_json_16b72761feff1a87b4fc26e69abe401b.bindPopup(
     function(layer){
     let div = L.DomUtil.create(&#x27;div&#x27;);
     
@@ -434,22 +434,22 @@
 });
                      
     
-            geo_json_c159e1f798123350fad6db57e154375b.addTo(map_c3fbc9ada43bf763aa3c387b30f488dc);
+            geo_json_16b72761feff1a87b4fc26e69abe401b.addTo(map_eac27efbbd6de7081072319a621d7770);
         
     
-        function geo_json_d8913ac437bcb06f3343b49f4f9164ae_styler(feature) {
+        function geo_json_6c7604c5c8bfe4e17101a765d5583355_styler(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;color&quot;: &quot;red&quot;, &quot;fillColor&quot;: &quot;red&quot;, &quot;fillOpacity&quot;: 0.5, &quot;weight&quot;: 2};
             }
         }
-        function geo_json_d8913ac437bcb06f3343b49f4f9164ae_highlighter(feature) {
+        function geo_json_6c7604c5c8bfe4e17101a765d5583355_highlighter(feature) {
             switch(feature.id) {
                 default:
                     return {&quot;fillOpacity&quot;: 0.75};
             }
         }
-        function geo_json_d8913ac437bcb06f3343b49f4f9164ae_pointToLayer(feature, latlng) {
+        function geo_json_6c7604c5c8bfe4e17101a765d5583355_pointToLayer(feature, latlng) {
             var opts = {
   &quot;stroke&quot;: true,
   &quot;color&quot;: &quot;#3388ff&quot;,
@@ -467,13 +467,13 @@
   &quot;radius&quot;: 4,
 };
             
-            let style = geo_json_d8913ac437bcb06f3343b49f4f9164ae_styler(feature)
+            let style = geo_json_6c7604c5c8bfe4e17101a765d5583355_styler(feature)
             Object.assign(opts, style)
             
             return new L.CircleMarker(latlng, opts)
         }
 
-        function geo_json_d8913ac437bcb06f3343b49f4f9164ae_onEachFeature(feature, layer) {
+        function geo_json_6c7604c5c8bfe4e17101a765d5583355_onEachFeature(feature, layer) {
             (function propagate(parent){
                 if (typeof parent.eachLayer !== &quot;function&quot;) {return;}
                 parent.eachLayer(function (child) {
@@ -485,35 +485,35 @@
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === &quot;function&quot;){
-                            geo_json_d8913ac437bcb06f3343b49f4f9164ae.resetStyle(e.target);
+                            geo_json_6c7604c5c8bfe4e17101a765d5583355.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === &quot;function&quot;){
-                        const highlightStyle = geo_json_d8913ac437bcb06f3343b49f4f9164ae_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_6c7604c5c8bfe4e17101a765d5583355_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
             });
         };
-        var geo_json_d8913ac437bcb06f3343b49f4f9164ae = L.geoJson(null, {
-                onEachFeature: geo_json_d8913ac437bcb06f3343b49f4f9164ae_onEachFeature,
+        var geo_json_6c7604c5c8bfe4e17101a765d5583355 = L.geoJson(null, {
+                onEachFeature: geo_json_6c7604c5c8bfe4e17101a765d5583355_onEachFeature,
             
-                style: geo_json_d8913ac437bcb06f3343b49f4f9164ae_styler,
-                pointToLayer: geo_json_d8913ac437bcb06f3343b49f4f9164ae_pointToLayer,
+                style: geo_json_6c7604c5c8bfe4e17101a765d5583355_styler,
+                pointToLayer: geo_json_6c7604c5c8bfe4e17101a765d5583355_pointToLayer,
             ...{
 }
         });
 
-        function geo_json_d8913ac437bcb06f3343b49f4f9164ae_add (data) {
-            geo_json_d8913ac437bcb06f3343b49f4f9164ae
+        function geo_json_6c7604c5c8bfe4e17101a765d5583355_add (data) {
+            geo_json_6c7604c5c8bfe4e17101a765d5583355
                 .addData(data);
         }
-            geo_json_d8913ac437bcb06f3343b49f4f9164ae_add({&quot;bbox&quot;: [-147.73617, 64.86534, -147.73617, 64.86534], &quot;features&quot;: [{&quot;bbox&quot;: [-147.73617, 64.86534, -147.73617, 64.86534], &quot;geometry&quot;: {&quot;coordinates&quot;: [-147.73617, 64.86534, 440.0], &quot;type&quot;: &quot;Point&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {&quot;__folium_color&quot;: &quot;red&quot;, &quot;datasource&quot;: &quot;NRCS&quot;, &quot;id&quot;: &quot;1302:AK:SNTL&quot;, &quot;name&quot;: &quot;Creamers Field&quot;}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
+            geo_json_6c7604c5c8bfe4e17101a765d5583355_add({&quot;bbox&quot;: [-147.73617, 64.86534, -147.73617, 64.86534], &quot;features&quot;: [{&quot;bbox&quot;: [-147.73617, 64.86534, -147.73617, 64.86534], &quot;geometry&quot;: {&quot;coordinates&quot;: [-147.73617, 64.86534, 440.0], &quot;type&quot;: &quot;Point&quot;}, &quot;id&quot;: &quot;0&quot;, &quot;properties&quot;: {&quot;__folium_color&quot;: &quot;red&quot;, &quot;datasource&quot;: &quot;NRCS&quot;, &quot;id&quot;: &quot;1302:AK:SNTL&quot;, &quot;name&quot;: &quot;Creamers Field&quot;}, &quot;type&quot;: &quot;Feature&quot;}], &quot;type&quot;: &quot;FeatureCollection&quot;});
 
         
     
-    geo_json_d8913ac437bcb06f3343b49f4f9164ae.bindTooltip(
+    geo_json_6c7604c5c8bfe4e17101a765d5583355.bindTooltip(
     function(layer){
     let div = L.DomUtil.create(&#x27;div&#x27;);
     
@@ -548,7 +548,7 @@
 });
                      
     
-            geo_json_d8913ac437bcb06f3343b49f4f9164ae.addTo(map_c3fbc9ada43bf763aa3c387b30f488dc);
+            geo_json_6c7604c5c8bfe4e17101a765d5583355.addTo(map_eac27efbbd6de7081072319a621d7770);
         
 &lt;/script&gt;
 &lt;/html&gt;" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
